@@ -22,7 +22,7 @@ after_success:
   - docker push k3snoob/multi-ser
   - docker push k3snoob/multi-worker
   
- deploy:
+deploy:
   provider: elasticbeanstalk
   region: eu-west-1
   app: multi-docker
